@@ -40,5 +40,8 @@ elif all((not geel,not blauwe_schimmels,not korst)):
 # Foume d'Ambert
 elif all((not geel,blauwe_schimmels,not korst)):
     print('Hmm... Ik denk dat de kaas die je in gedachten hebt Foume d\'Ambert is.')
-else:
-    print('Helaas weet ik het antwoord niet :(')
+
+time.sleep(1)
+print('')
+
+print("Bedankt voor het spelen!")    
